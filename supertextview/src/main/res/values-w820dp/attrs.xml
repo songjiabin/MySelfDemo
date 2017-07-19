@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SuperTextView_mySelef">
+        <attr name="sHeight" format="dimension"/> <!--布局的高度-->
+
+        <attr name="sLeftDrawable" format="reference"/> <!--左边图片-->
+        <attr name="sRightDrawable" format="reference"/><!--右边图片-->
+        <attr name="sLeftIconWidth" format="dimension"/> <!--左边图片的宽度-->
+        <attr name="sLeftIconHeight" format="dimension"/> <!--左边图片的高度-->
+        <attr name="sLeftIconLeftMargin" format="dimension"/> <!--左边距-->
+        <attr name="sRightIconRightMargin" format="dimension"/> <!--右边距-->
+
+        <attr name="sRightIconWidth" format="dimension"/> <!--右边图片的宽度-->
+        <attr name="sRightIconHeight" format="dimension"/> <!--右边图片的高度-->
+
+        <attr name="siSupportRipple" format="boolean"/><!--点击的时候是否支持波纹效果-->
+
+
+        <attr name="sLeftViewLeftMargin" format="dimension"/><!--左边布局的左边距-->
+        <attr name="sRightViewLeftMargin" format="dimension"/><!--左边布局的左边距-->
+
+        <attr name="sCenterSpanceHeight" format="dimension"/> <!--textView 之前的间距-->
+
+
+        <attr name="sLeftView_topTextViewString" format="string"/>
+        <attr name="sLeftView_centerTextViewString" format="string"/>
+        <attr name="sLeftView_bottomTextViewString" format="string"/>
+
+
+        <!--左边的View 中 textview的颜色-->
+        <attr name="sLeftView_topTextViewColor" format="color"/>  <!--上面textview的颜色-->
+        <attr name="sLeftView_centerTextViewColor" format="color"/>  <!--中间textview的颜色-->
+        <attr name="sLeftView_bottomTextViewColor" format="color"/>  <!--下面textview的颜色-->
+
+        <!--左边的View 中 textview的 size 大小-->
+        <attr name="sLeftView_topTextViewSize" format="dimension"></attr>
+        <attr name="sLeftView_centerTextViewSize" format="dimension"></attr>
+        <attr name="sLeftView_bottomTextViewSize" format="dimension"></attr>
+
+        <!--最大的行数  用来设置当字数超过某个值的时候 进行 ... 表示 -->
+        <attr name="sLeftView_topLines" format="integer"/>
+        <attr name="sLeftView_centerLines" format="integer"/>
+        <attr name="sLeftView_bottomLines" format="integer"/>
+
+        <!--最大的字数  用来设置当字数超过某个值的时候 进行 ... 表示 -->
+        <attr name="sLeftView_topMaxEms" format="integer"/>
+        <attr name="sLeftView_centerMaxEms" format="integer"/>
+        <attr name="sLeftView_bottomMaxEms" format="integer"/>
+
+        <!--是否加粗呢-->
+        <attr name="sLeftView_topTextViewIsBold" format="boolean"/>
+        <attr name="sLeftView_centerTextViewIsBold" format="boolean"/>
+        <attr name="sLeftView_bottomTextViewIsBold" format="boolean"/>
+
+        <!--左边 上中下  三个 textview的 对齐方式-->
+        <attr name="sLeftViewGravity2" format="enum">
+            <enum name="left_center" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right_center" value="2"/>
+        </attr>
+
+        <attr name="sCenterViewGravity2" format="enum">
+            <enum name="left_center" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right_center" value="2"/>
+        </attr>
+
+        <attr name="sRightViewGravity2" format="enum">
+            <enum name="left_center" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right_center" value="2"/>
+        </attr>
+
+
+        <attr name="sLeftViewDrawableLeft" format="reference"/><!--drawableLeft --><!--左边TextView 的drawableLeft 和 drawableRight-->
+        <attr name="sLeftViewDrawableRight" format="reference"/><!--drawableLeft -->
+        <attr name="sLeftViewDrawablePadding" format="dimension"/> <!--drawablepadding  -->
+
+
+        <attr name="sRightViewMarginLeft" format="dimension"/> <!--右边textview的左边距-->
+        <attr name="sRightViewMarginRight" format="dimension"/>  <!--右边textview的右边距-->
+
+        <attr name="sRightViewTopString" format="string"/>  <!--右边TexView 的TopString -->
+        <attr name="sRightViewCenterString" format="string"/>
+        <attr name="sRightViewBottomString" format="string"/>
+
+        <attr name="sRightTopColorString" format="color"/>
+        <attr name="sRightCenterColorString" format="color"/>
+        <attr name="sRightBottomColorString" format="color"/>
+
+    </declare-styleable>
+
+</resources>

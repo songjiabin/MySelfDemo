@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <handongkeji.com.supertextview.demo.SuperTextView_mySelef
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sLeftDrawable="@mipmap/ic_launcher"
+        app:sLeftIconLeftMargin="100dp"
+        app:sRightDrawable="@mipmap/ic_launcher"
+        app:sRightIconRightMargin="50dp"
+        >
+
+    </handongkeji.com.supertextview.demo.SuperTextView_mySelef>
+
+
+    <handongkeji.com.supertextview.demo.SuperTextView_mySelef
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        app:sCenterSpanceHeight="10dp"
+        app:sLeftViewDrawableLeft="@android:drawable/ic_dialog_email"
+        app:sLeftViewGravity2="right_center"
+        app:sLeftViewLeftMargin="10dp"
+        app:sLeftView_bottomLines="1"
+        app:sLeftView_bottomMaxEms="10"
+        app:sLeftView_bottomTextViewColor="#90EE90"
+        app:sLeftView_bottomTextViewIsBold="true"
+        app:sLeftView_bottomTextViewSize="20sp"
+        app:sLeftView_bottomTextViewString="这个是底部"
+        app:sLeftView_centerLines="1"
+        app:sLeftView_centerMaxEms="5"
+        app:sLeftView_centerTextViewColor="#96CDCD"
+        app:sLeftView_centerTextViewIsBold="true"
+        app:sLeftView_centerTextViewSize="17sp"
+        app:sLeftView_centerTextViewString="这个是中间"
+        app:sLeftView_topLines="1"
+        app:sLeftView_topMaxEms="2"
+        app:sLeftView_topTextViewColor="@color/colorAccent"
+        app:sLeftView_topTextViewIsBold="true"
+        app:sLeftView_topTextViewSize="14sp"
+        app:sLeftView_topTextViewString="这个是上部"
+        app:sLeftViewDrawablePadding="10dp"
+        app:sLeftViewDrawableRight="@android:drawable/ic_delete"
+        >
+
+    </handongkeji.com.supertextview.demo.SuperTextView_mySelef>
+
+</LinearLayout>

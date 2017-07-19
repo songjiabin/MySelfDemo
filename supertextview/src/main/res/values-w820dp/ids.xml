@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_leftIcon" type="id"/>
+    <item name="id_rightIcon" type="id"/>
+
+    <item name="id_left_baseView" type="id"/>
+    <item name="id_right_baseView" type="id"/>
+</resources>

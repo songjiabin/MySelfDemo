@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SuperTextView">
+        <attr name="sLeftTextString" format="string"/><!--左边文字字符串-->
+        <attr name="sLeftTopTextString" format="string"/><!--左上文字字符串-->
+        <attr name="sUseRipple" format="boolean"/>  <!--是否开启水波效果-->
+        <attr name="sLeftIconWidth" format="dimension"/><!--左边图片的宽度-->
+        <attr name="sLeftIconHeight" format="dimension"/><!--左边图片的高度-->
+        <attr name="sLeftIconRes" format="reference"/> <!--左边图片的资源-->
+        <attr name="sLeftIconMarginLeft" format="dimension"/> <!--左边图片的左边距-->
+
+
+        <attr name="sLeftCenterTextString" format="string"/><!--中间文字字符串-->
+        <attr name="sLeftBottomTextString" format="string"/><!--下面文字字符串-->
+
+
+        <attr name="sRightIconWidth" format="dimension"/> <!--右侧图标的宽度-->
+        <attr name="sRightIconheight" format="dimension"/> <!--右侧图片的高度-->
+        <attr name="sRightIconRes" format="reference"/>  <!--右侧的icon-->
+        <attr name="sRightIconMarginRight" format="dimension"/> <!--左边图片的左边距-->
+
+
+        <attr name="sRightCheckBoxMarginRight" format="dimension"/> <!--右边Checkout 右边距-->
+        <attr name="sRightCheckBoxRes" format="reference"/>  <!-- checkout 的背景-->
+        <attr name="sIsChecked" format="boolean"/>  <!--checkout 是否选中-->
+
+
+        <attr name="sRightSwitchMarginRight" format="dimension"/>  <!-- swith 右边距-->
+        <attr name="sIsSwitched" format="boolean"/> <!-- switch 是否选中-->
+        <attr name="sTextOff" format="string"/> <!--switch 开关 关闭的 字-->
+        <attr name="sTextOn" format="string"/><!--switch 开关 开启的 字-->
+        <attr name="sSwitchMinWidth" format="dimension"/>
+        <attr name="sSwitchPadding" format="dimension"/>
+        <attr name="sThumbTextPadding" format="dimension"/>
+
+        <attr name="sThumbResource" format="reference"/>
+        <attr name="sTrackResource" format="reference"/>
+
+
+        <attr name="sRightVieType" format="enum">
+            <enum name="checkbox" value="0"/>
+            <enum name="switchBtn" value="1"/>
+        </attr>
+
+        <attr name="mLeftViewWidth" format="dimension"/>  <!--左边textview的宽度-->
+        <attr name="sLeftViewMarginLeft" format="dimension"/> <!--textview的左边距-->
+        <attr name="sLeftViewMarginRight" format="dimension"/> <!--textview的右边距-->
+
+
+        <attr name="sCenterSpaceHeight" format="dimension"/> <!--textView之间的间隔-->
+
+
+        <attr name="sLeftTopTextSize" format="dimension"/> <!---->
+        <attr name="sLeftCenterTextSize" format="dimension"/>
+        <attr name="sLeftBottomTextSize" format="dimension"/>
+
+
+        <attr name="sLeftTopLines" format="integer"/>
+        <attr name="sLeftCenterLines" format="integer"/>
+        <attr name="sLeftBottomLines" format="integer"/>
+
+
+        <attr name="sLeftTopMaxEms" format="integer"/>
+        <attr name="sLeftCenterMaxEms" format="integer"/>
+        <attr name="sLeftBottomMaxEms" format="integer"/>
+
+
+        <attr name="sLeftTopTextIsBold" format="boolean"/>
+        <attr name="sLeftCenterIsBold" format="boolean"/>
+        <attr name="sLeftBottomIsBold" format="boolean"/>  <!--字体是否加粗呢-->
+
+
+        <!--  View的对齐方式-->
+        <attr name="sLeftViewGravity" format="enum">
+            <enum name="left_center" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right_center" value="2"/>
+        </attr>
+        <attr name="sCenterViewGravity" format="enum">
+            <enum name="left_center" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right_center" value="2"/>
+        </attr>
+        <attr name="sRightViewGravity" format="enum">
+            <enum name="left_center" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right_center" value="2"/>
+        </attr>
+
+        <attr name="sLeftTvDrawableLeft" format="reference"/>
+        <attr name="sLeftTvDrawableRight" format="reference"/>
+        <attr name="sCenterTvDrawableLeft" format="reference"/>
+        <attr name="sCenterTvDrawableRight" format="reference"/>
+        <attr name="sRightTvDrawableLeft" format="reference"/>
+        <attr name="sRightTvDrawableRight" format="reference"/>
+
+        <attr name="sTextViewDrawablePadding" format="dimension"/> <!--图片和文字间的 padding -->
+
+
+        <attr name="sLeftTopTextColor" format="color"/>
+        <attr name="sLeftCenterTextColor" format="color"/>
+        <attr name="sLeftBottomTextColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
