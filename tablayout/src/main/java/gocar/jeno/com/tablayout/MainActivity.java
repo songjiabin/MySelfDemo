@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<TabLayouuBean> tagBeanList;
     private TadAdapter tagAdapter;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +25,11 @@ public class MainActivity extends AppCompatActivity {
         setData();
         setView();
         setRecyclerView();
+        demo();
     }
+
+    private void demo() {
+     }
 
     private void setData() {
         tagBeanList = new ArrayList<>();

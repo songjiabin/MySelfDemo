@@ -65,7 +65,7 @@ public class MyView1 extends View {
 
 
     private void drawCircle(Canvas canvas) {
-        canvas.drawColor(Color.parseColor("#88880000")); //给画布设置一层 透明色   半透明红色    这类颜色填充方法一般用于在绘制之前设置底色，或者在绘制之后为界面设置半透明蒙版
+//        canvas.drawColor(Color.parseColor("#88880000")); //给画布设置一层 透明色   半透明红色    这类颜色填充方法一般用于在绘制之前设置底色，或者在绘制之后为界面设置半透明蒙版
         canvas.drawCircle(300, 300, 200, mCirclePaint);
 
         RectF f=new RectF(300,500,600,600);
