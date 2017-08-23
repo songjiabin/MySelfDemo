@@ -29,6 +29,30 @@ public class Practice3DrawRectView extends View {
 
 //        练习内容：使用 canvas.drawRect() 方法画矩形
 
+//        demo1(canvas);
+
+        //进行画正方形
+
+        Paint paint = new Paint();
+        paint.setAntiAlias(true);
+        paint.setColor(Color.BLACK);
+        paint.setStyle(Paint.Style.FILL);
+
+
+        int heght = getMeasuredHeight();
+        int widht = getMeasuredWidth();
+
+        float top = heght / 4;
+        float left = widht / 2 - top;
+        float right = widht / 2 + top;
+        float bottom = heght / 4 * 3;
+
+        canvas.drawRect(left, top, right, bottom, paint);
+
+
+    }
+
+    private void demo1(Canvas canvas) {
         Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setAntiAlias(true);
@@ -38,12 +62,10 @@ public class Practice3DrawRectView extends View {
         float yStart = (getHeight()) / 4;
 
         float xEnd = getWidth() - xStart;
-        float yEnd = getHeight()-yStart ;
+        float yEnd = getHeight() - yStart;
 
 
         canvas.drawRect(xStart, yStart, xEnd, yEnd, paint);
-
-
     }
 
     private int dip2px(Context context, float dipValue) {

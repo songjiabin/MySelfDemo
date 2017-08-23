@@ -15,9 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".demo.MyDemoSuperTextViewActivity">
-
+        </activity>
+        <activity android:name=".SecondActivity"/>
+        <activity android:name=".ThreeActivity">
         </activity>
     </application>
 

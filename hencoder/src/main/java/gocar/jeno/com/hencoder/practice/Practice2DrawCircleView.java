@@ -62,15 +62,31 @@ public class Practice2DrawCircleView extends View {
 //        一共四个圆：1.实心圆 2.空心圆 3.蓝色实心圆 4.线宽为 20 的空心圆
 
 
-        canvas.drawCircle(200,200,100,paint1);
-
-        canvas.drawCircle(500,200,100,paint2);
-
-        canvas.drawCircle(200,500,100,paint3);
-
-        canvas.drawCircle(500,500,100,paint4);
+//        draw1(canvas);
 
 
+        float screenWidth = getMeasuredWidth();
+        float screenHeight = getMeasuredHeight();
 
+
+        canvas.drawCircle(screenWidth / 4, screenHeight / 4, 150, paint1);
+
+        canvas.drawCircle(screenWidth / 4 * 3, screenHeight / 4, 150, paint2);
+
+        canvas.drawCircle(screenWidth / 4, screenHeight / 4 * 3, 150, paint3);
+
+        canvas.drawCircle(screenWidth / 4 * 3, screenHeight / 4 * 3, 150, paint4);
+
+
+    }
+
+    private void draw1(Canvas canvas) {
+        canvas.drawCircle(200, 200, 100, paint1);
+
+        canvas.drawCircle(500, 200, 100, paint2);
+
+        canvas.drawCircle(200, 500, 100, paint3);
+
+        canvas.drawCircle(500, 500, 100, paint4);
     }
 }
