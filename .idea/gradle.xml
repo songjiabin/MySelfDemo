@@ -9,9 +9,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/commonpopupwindow" />
+            <option value="$PROJECT_DIR$/hencode3_come" />
             <option value="$PROJECT_DIR$/hencoder" />
+            <option value="$PROJECT_DIR$/hencoder2" />
             <option value="$PROJECT_DIR$/horizontalprogressbar" />
+            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/onmeasuredemo" />
+            <option value="$PROJECT_DIR$/scanning" />
             <option value="$PROJECT_DIR$/supertextview" />
             <option value="$PROJECT_DIR$/tablayout" />
             <option value="$PROJECT_DIR$/waveview" />

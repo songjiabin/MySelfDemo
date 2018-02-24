@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TourGuide.iml" filepath="$PROJECT_DIR$/TourGuide.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonpopupwindow/commonpopupwindow.iml" filepath="$PROJECT_DIR$/commonpopupwindow/commonpopupwindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hencode3_come/hencode3_come.iml" filepath="$PROJECT_DIR$/hencode3_come/hencode3_come.iml" />
       <module fileurl="file://$PROJECT_DIR$/hencoder/hencoder.iml" filepath="$PROJECT_DIR$/hencoder/hencoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hencoder2/hencoder2.iml" filepath="$PROJECT_DIR$/hencoder2/hencoder2.iml" />
       <module fileurl="file://$PROJECT_DIR$/horizontalprogressbar/horizontalprogressbar.iml" filepath="$PROJECT_DIR$/horizontalprogressbar/horizontalprogressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/onmeasuredemo/onmeasuredemo.iml" filepath="$PROJECT_DIR$/onmeasuredemo/onmeasuredemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scanning/scanning.iml" filepath="$PROJECT_DIR$/scanning/scanning.iml" />
       <module fileurl="file://$PROJECT_DIR$/supertextview/supertextview.iml" filepath="$PROJECT_DIR$/supertextview/supertextview.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayout/tablayout.iml" filepath="$PROJECT_DIR$/tablayout/tablayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/waveview/waveview.iml" filepath="$PROJECT_DIR$/waveview/waveview.iml" />

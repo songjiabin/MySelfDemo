@@ -1,1 +1,1 @@
-include ':commonpopupwindow', ':supertextview', ':tablayout', ':horizontalprogressbar', ':hencoder', ':onmeasuredemo', ':waveview'
+include ':commonpopupwindow', ':supertextview', ':tablayout', ':horizontalprogressbar', ':hencoder', ':onmeasuredemo', ':waveview', ':hencoder2', ':scanning', ':myapplication', ':hencode3_come'

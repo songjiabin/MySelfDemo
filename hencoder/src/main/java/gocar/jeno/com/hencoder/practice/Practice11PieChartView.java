@@ -115,6 +115,10 @@ public class Practice11PieChartView extends View {
         paint.setTextSize(42);
         paint.setColor(Color.WHITE);
         canvas.drawText("饼图", getWidth() / 2 - 50, getHeight() / 2 + 320, paint);
+
+
+
+
     }
 
 }
